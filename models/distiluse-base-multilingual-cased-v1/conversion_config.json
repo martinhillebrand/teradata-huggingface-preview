@@ -1,0 +1,12 @@
+{
+    "model_id": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+    "number_of_generated_embeddings": 512,
+    "precision_to_filename_map": {
+        "fp32": "onnx/model.onnx", 
+        "fp16": "onnx/model_fp16.onnx", 
+        "int8": "onnx/model_int8.onnx", 
+        "uint8": "onnx/model_uint8.onnx"
+    },
+    "opset": 16,
+    "IR": 8
+}
